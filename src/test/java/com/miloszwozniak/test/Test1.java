@@ -29,7 +29,7 @@ public class Test1 {
     }
 
     @After
-    public void closePage(){
+    public void tearDown(){
         driver.close();
     }
 
